@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iffat Portofolio</title>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <script src="js/script.js"></script>
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">Iffat Portofolio</a>
+      </div>
+
+      <div class="navbar-item">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skill">My Skill</a>
+        <a href="#project">My Project</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero-section" id="home">
+        <h1 class="hero-title">IFFAT PORTOFOLIO WEBSITE</h1>
+        <p class="hero-sub">Frontend Developer</p>
+        <button class="hero-btn" id="get-started-btn">Get Started</button>
+      </section>
+
+      <section class="about-section" id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Iffat Arrayan. I’m a beginner frontend developer and
+          a student at SMK Taruna Bhakti Depok. I love learning web development
+          and creating simple, functional websites.
+        </p>
+      </section>
+
+      <section class="skill-section" id="skill">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+          <div class="skill-box">
+            <img src="asset/html.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="skill-box">
+            <img src="asset/css-3.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="skill-box">
+            <img src="asset/pngegg.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section" id="project">
+        <h2>My Projects</h2>
+        <div class="project-container">
+          <div class="project-box">
+            <img src="asset/Screenshot 2025-09-05 001547.png" alt="Project 1" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/xyzqkrbr" method="POST">
+      <label>
+        Your email:
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+
+    <hr />
+
+    <script>
+      feather.replace();
+    </script>
+
+    <footer>
+      <p>2025 Iffat Arrayan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
