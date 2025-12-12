@@ -99,13 +99,6 @@ body {
   box-shadow: 0 0 50px rgba(0, 255, 255, 0.5);
 }
 
-#welcome-text {
-  font-size: 28px;
-  color: var(--utama);
-  text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
-  transition: 0.3s;
-}
-
 .about-section {
   text-align: center;
   padding: 40px 20px;
